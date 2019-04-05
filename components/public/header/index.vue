@@ -4,7 +4,7 @@
       <geo />
     </el-col>
     <el-col :span="6">
-      222
+      <user />
     </el-col>
     <el-col :span="6">
       3333
@@ -14,9 +14,11 @@
 
 <script>
 import Geo from './geo.vue'
+import User from './user.vue'
 export default {
   components:{
-    Geo
+    Geo,
+    User
   }
 }
 </script>
